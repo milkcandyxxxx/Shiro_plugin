@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Shiro_plugin
+
+shiro:
+  ws:
+    client:
+      enable: true
+      url: "ws://127.0.0.1:3001"
+  plugin:
+    enable-annotation: true
+#  plugin-list:
+#    - org.example.shiro_plugin.plugins.ping_test
