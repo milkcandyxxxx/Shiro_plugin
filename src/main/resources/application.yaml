@@ -8,7 +8,6 @@ shiro:
       enable: true
       url: "ws://127.0.0.1:3001"
 #      ?????????????????????????
-#  plugin:
-#    enable-annotation: true
   plugin-list:
-    - org.example.shiro_plugin.plugins.ping_test
+      - org.example.shiro_plugin.plugins.ping_test
+      - org.example.shiro_plugin.plugins.Get_user_information
